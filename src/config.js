@@ -1,4 +1,6 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIP_KEY: 'pk_test_Zyk1Hc3RRK5ZoyiLWv63GcgI00jF7kmpJG',
   s3: {
     REGION: 'us-east-1',
     BUCKET: 'binary-notes-app-uploads'
@@ -12,5 +14,5 @@ export default {
     USER_POOL_ID: 'us-east-1_LP5qdIJE7',
     APP_CLIENT_ID: 'bihsnk18jc94linao0icp9dbm',
     IDENTITY_POOL_ID: 'us-east-1:be3cab28-a605-4b3f-bdf2-c0ae4b36be85'
-  }
-}
+  },
+};
